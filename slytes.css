@@ -1,0 +1,104 @@
+*{
+    animation: fadeIn 2s ease-in-out 1s;
+}
+
+body{
+    background-color: aquamarine;
+    width: 100vw;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+}
+header{
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    color: azure;
+
+}
+.car{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px 0;
+    gap: 10px;
+}
+button:hover{
+background-color: aqua;
+scale: 1.1;
+cursor: pointer;
+
+
+}
+
+ .producto{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    gap: 1cm;
+    margin: 25px;
+    width: 300px;
+    height: 75px;
+    justify-content: space-around;
+    border-radius: 10px 10px 10px 10px;
+    font-size: large;
+    color: azure;
+    animation: fadeIn 2s ease-in-out 1s;
+}
+img{
+    width: 70px;
+
+}
+button{
+    height: 30px;
+    border-radius: 05px;
+}
+#product{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;  
+}
+#vaciar{
+    width: 80px;
+    height: 40px;
+}
+#modal{
+    width: 100px;
+    height: 100px ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    display: none;
+}
+#modal-content{
+    display: none;
+    position: fixed;
+    left: 420px;
+    bottom: 200px;
+    padding: 40px;
+    background-color: azure;
+    border-radius: 30px;
+    width: 200px;
+    
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+   }
+
+}
+
+

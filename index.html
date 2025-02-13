@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slytes.css">
+</head>
+<body>
+    <header>
+        <P>TIENDA  FULLSTACK </P>
+        <div class="car">
+        <img class="carro" src="https://cdn-icons-png.flaticon.com/256/3144/3144456.png" alt="">
+        <h3 id="carro"></h3>
+        <BUTton id="vaciar" >VACIAR CARRITO</BUTton>
+        </div>
+    </header>
+    <div id="modal">
+        <div id="modal-content">
+            <img src="${imagen}" alt="">
+            <h4>${nombre}</h4>
+            <h3>${descripcion}</h3>
+            <p>${valor}</p>
+        </div>
+
+
+
+    </div>
+<DIV class="producto">
+    <img src="https://web.superboom.net/web/image/product.template/27137/image_1024?unique=f31c36f" alt="">
+    <p>chocolate</p>
+    <button onclick="agregarcosas(`Chocolate`,`dulces`,`$5.000`,`https://web.superboom.net/web/image/product.template/27137/image_1024?unique=f31c36f`)">agregar</button>
+</DIV>
+<DIV class="producto">
+    <img src="https://www.dispedisa.com/wp-content/uploads/2019/06/Pepsi-refresco-cola-vidrio-pet-lata-baginbox.png" alt="">
+    <p>Pepsi</p>
+    <button onclick="agregarcosas(`Pepsi`,`refrescante`,`$8.000`,`https://www.dispedisa.com/wp-content/uploads/2019/06/Pepsi-refresco-cola-vidrio-pet-lata-baginbox.png`)">agregar</button>
+</DIV>
+<DIV class="producto">
+    <img src="https://blogs.eluniversal.com.co/sites/default/files/styles/interna/public/2020-07/papas.png?itok=UzAsw4S-" alt="">
+    <p>PaPitas</p>
+    <button onclick="agregarcosas(`margaritas`,`son ricas`,`$10.000`,`https://blogs.eluniversal.com.co/sites/default/files/styles/interna/public/2020-07/papas.png?itok=UzAsw4S-`)">agregar</button>
+</DIV>
+
+
+<div id="product"></div>
+</body>
+
+    <script src="script.js"></script>
+
+</html>
